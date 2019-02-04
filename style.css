@@ -11,7 +11,6 @@
     background-position: center, center;
     padding-top: 10em;
     padding-bottom: 54em;
-    /*padding-right: 100px;*/
     color: #ffffff;
 }
 
@@ -30,3 +29,50 @@
 }
 
 /*end header*/
+
+
+
+/*about*/
+.about .container-fluid{ 
+	/*height: 10px;*/
+	background-color: #EFF0E0;
+    padding-top: 9em;
+    padding-bottom: 10em;
+    padding-right: 25em;
+    padding-left: 25em;
+    color: #3C3C3C;
+}
+
+.about p{
+	padding-top:20px;
+}
+.approach p{
+	padding-top: 1em;
+	padding-right: 10em;
+	padding-left: 10em;
+}
+/*end about*/
+
+
+/*services*/
+.services .container-fluid{ 
+	background-image: url('assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center, center;
+    padding-top: 4em;
+    padding-bottom: 5em;
+    color: #ffffff;
+}
+.services h2{
+	padding-bottom: 1em;
+}
+
+.services p{
+	line-height: 30px;
+	padding-right: 30em;
+	padding-left: 30em;
+}
+/*end services*/
