@@ -1,0 +1,32 @@
+/*header*/
+
+.top .container-fluid{ 
+	margin-top:1em;
+	height: 90px;
+	background-image: url('assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center, center;
+    padding-top: 10em;
+    padding-bottom: 54em;
+    /*padding-right: 100px;*/
+    color: #ffffff;
+}
+
+.top h2{
+	font-size: 50px;
+	padding-top: 20px;
+	padding-bottom:25px;
+}
+
+.top p{
+	padding:20px;
+}
+.iconn{
+	position: relative;
+	padding:50px;
+}
+
+/*end header*/
