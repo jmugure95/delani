@@ -76,3 +76,45 @@
 	padding-left: 30em;
 }
 /*end services*/
+
+
+/*activities*/
+.activities{
+	background-color: #EFF0E0;
+	padding-right: 6em;
+	padding-left: 6em;
+}
+
+.activities h4{
+	font-weight: bold;
+	text-align: center;
+	padding: 2em;
+}
+
+.activities h2{
+	padding-top: 2em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+.activities p{
+    
+	text-align: center;
+}
+.design{
+	padding-right: 1.5em;
+
+}
+.development{
+	padding-right: 1.5em;
+
+}
+
+
+.activities img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*end activities*/
