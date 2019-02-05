@@ -1,8 +1,16 @@
 /*header*/
+html,body{
+	width: 100% !important;
+	height: 100%;
+	margin: 0px !important;
+	padding: 0px !important;
+	overflow-x:hidden;
+}
+
 
 .top .container-fluid{ 
-	margin-top:1em;
 	height: 70px;
+	width: 100%;
 	background-image: url('assets/backgrounds/h_img.jpg');
     background-size: cover;
     -webkit-background-size: cover;
@@ -25,17 +33,35 @@
 	padding:20px;
 }
 .iconn{
-	position: relative;
+
 	padding:50px;
 }
 
+
+@media(max-width: 768px){
+
+ 	.header{
+ 		padding: 30px;
+ 		height: 750px;
+ 	}
+
+ 	.header img{
+ 		width:5%;
+ 		height: 200px;
+ 		margin: 20px 0 0 20px;
+ 	}
+
+ 	.header p{
+ 		font-size: 10px;
+ 	}
+ }
 /*end header*/
 
 
 
 /*about*/
 .about .container-fluid{ 
-	/*height: 10px;*/
+
 	background-color: #EFF0E0;
     padding-top: 9em;
     padding-bottom: 10em;
@@ -47,11 +73,25 @@
 .about p{
 	padding-top:20px;
 }
+.about h3{
+	padding: 25px;
+}
 .approach p{
 	padding-top: 1em;
 	padding-right: 10em;
 	padding-left: 10em;
 }
+ @media(max-width: 768px){
+ 	.about .container-fluid{
+ 		padding: 22px;
+ 	}
+ 	.about .approach p{
+ 		padding-left: 10px;
+ 		padding-right: 10px;
+ 	}
+ }
+
+
 /*end about*/
 
 
@@ -66,6 +106,7 @@
     padding-top: 4em;
     padding-bottom: 5em;
     color: #ffffff;
+    width: 100%;
 }
 .services h2{
 	padding-bottom: 1em;
@@ -76,11 +117,18 @@
 	padding-right: 30em;
 	padding-left: 30em;
 }
+@media(max-width: 768px){
+ 	.services p{
+ 		padding: 20px;
+ 	}
+ 	
+ }
 /*end services*/
 
 
 /*activities*/
 .activities{
+	width: 100%;
 	background-color: #EFF0E0;
 	padding-right: 6em;
 	padding-left: 6em;
@@ -117,15 +165,45 @@
   margin-left: auto;
   margin-right: auto;
 
+
 }
 
+
+@media screen and (max-width: 500px) {
+	.activities .development{
+    width: 100%;
+    padding-top:33px;
+   
+  }
+  .activities .development h4 {
+    width: 100%;
+    padding-top:15px;
+    padding-left: 4px;
+    padding-bottom: 15px;
+  }
+  .activities .product{
+    width: 100%;
+    padding-top:33px;
+   
+  }
+  .activities .product h4 {
+    width: 100%;
+    padding-top:15px;
+    padding-left: 2px;
+    padding-bottom: 15px;
+  }
+}
+/*end activities*/
+
+/*portfolio*/
 .column {
   float: left;
-  width: 24.6%;
+  width: 23.5%;
   padding-bottom: 2.4em;
   padding-right: 1.4em;
   
 }
+
 .portfolio{
 	background-color: #EFF0E0;
 }
@@ -133,11 +211,10 @@
 	padding-top: 2em;
 	color: #3C3C3C;
 }
+
 .portfolio .row{
-padding-top: 3em;
-  padding-right: 9em;
-  padding-left: 13em;
-  padding-bottom: 5em;
+  padding: 2em 2em 2em 8em;
+ 
 }
 
 
@@ -148,9 +225,23 @@ padding-top: 3em;
   
 }
 
-/*end activities*/
+ @media(max-width: 768px){
+ 	
+ 	.portfolio .column{
+ 		width: 80%;
+ 		
+ }
+   .portfolio .column img{
+ 	height: 14em;
+ 	/*width: 20em;*/
+ }
+ }
+/*end portfolio
+
+
 /*contact*/
 .contact .container-fluid{
+	width: 100%;
 	background-image: url('assets/backgrounds/c_image.jpg');
     background-size: cover;
     -webkit-background-size: cover;
@@ -169,21 +260,22 @@ padding-top: 3em;
 
 input{
 	background-color: transparent;
+	border: 1.7px solid white;
 	outline:none;
-	width: 24em;
+	width: 100%;
 	padding: 10px;
 
 
 }
 .name{
-	border:1.7px solid white;
+	
 	float: left;
 	background-color: transparent;
 	color: white;
 
 }
 .email{
-	border: 1.7px solid white;
+	
 	float: right;
 	color: white;
 
@@ -203,18 +295,68 @@ input{
   padding: 0.5em;
 }
 
+
+ @media(max-width: 768px){
+
+ 
+ 	.contact .container-fluid{
+ 		padding: 40px;
+ 	}
+ 	input{
+	background-color: transparent;
+	border: 1.7px solid white;
+	outline:none;
+	margin-bottom: 20px;
+
+	
+	/*padding: 6px;*/
+
+}
+
+ 	.email input{
+ 		width: 98.9%;
+ 		margin-right: 2.8em;
+ 		padding-left:9px;
+ 		padding-right: 70px;
+
+
+}
+ 		
+ 	}
+ 	.name input{
+ 		width: 146.8%;
+ 		padding-bottom: 10px;
+ 		padding-top: 10px;
+ 	}
+
+ 	.textarea textarea{
+ 		width: 100%;
+ 	}
+ }
+
 /*end contact*/
 
 /*footer*/
 .footer{
+	width: 100%;
 	padding: 3em;
+	
 }
 .footer img{
-	padding-bottom: 2em;
+	margin-top: 3em;
+	padding-bottom: 1em;
 	padding-right: 1.5em;
 }
 .footer p{
 	font-size: 0.7em;
 	font-weight: bold;
 }
-/*end footer*/
+
+
+ @media(max-width: 768px){
+ 
+ 	.footer img{
+ 		padding-right: 35px;
+ 	}
+ 	}
+/*end footer
