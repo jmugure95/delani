@@ -1,7 +1,5 @@
 /*header*/
 html,body{
-	width: 100% !important;
-	height: 100%;
 	margin: 0px !important;
 	padding: 0px !important;
 	overflow-x:hidden;
@@ -233,7 +231,7 @@ html,body{
  }
    .portfolio .column img{
  	height: 14em;
- 	/*width: 20em;*/
+ 	
  }
  }
 /*end portfolio
@@ -262,7 +260,7 @@ input{
 	background-color: transparent;
 	border: 1.7px solid white;
 	outline:none;
-	width: 100%;
+	width: 138%;
 	padding: 10px;
 
 
@@ -275,7 +273,7 @@ input{
 
 }
 .email{
-	
+	padding-right: 5em;
 	float: right;
 	color: white;
 
@@ -305,26 +303,20 @@ input{
  	input{
 	background-color: transparent;
 	border: 1.7px solid white;
-	outline:none;
 	margin-bottom: 20px;
-
-	
-	/*padding: 6px;*/
 
 }
 
  	.email input{
- 		width: 98.9%;
+ 		width: 133%;
  		margin-right: 2.8em;
  		padding-left:9px;
  		padding-right: 70px;
 
-
-}
  		
  	}
  	.name input{
- 		width: 146.8%;
+ 		width: 147.5%;
  		padding-bottom: 10px;
  		padding-top: 10px;
  	}
@@ -339,7 +331,6 @@ input{
 /*footer*/
 .footer{
 	width: 100%;
-	padding: 3em;
 	
 }
 .footer img{
