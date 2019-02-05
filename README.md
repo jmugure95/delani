@@ -11,4 +11,4 @@ Delani Studios is a team of committed collaborators that design and develop exce
 
 # Copyright
 
-Copyright (C) 2019 Delani Studios.
+Copyright (C) 2015 Delani Studios.

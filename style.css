@@ -118,3 +118,67 @@
 
 }
 /*end activities*/
+/*contact*/
+.contact .container-fluid{
+	background-image: url('assets/backgrounds/c_image.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center, center;
+    padding-top: 4em;
+    padding-bottom: 5em;
+    padding-right: 17em;
+    padding-left: 24em;
+    color: #ffffff;
+
+}
+input{
+	background-color: transparent;
+	outline:none;
+	width: 24em;
+	padding: 10px;
+
+
+}
+.name{
+	border:1.7px solid white;
+	float: left;
+	background-color: transparent;
+	color: white;
+
+}
+.email{
+	border: 1.7px solid white;
+	float: right;
+	color: white;
+
+}
+.textarea{
+	padding-top: 5em;
+	color: white;
+
+}
+.textarea textarea{
+	border: 2px solid white;
+	background-color: transparent;
+
+}
+::-webkit-input-placeholder {
+  color: white;
+  padding: 0.5em;
+}
+
+/*end contact*/
+
+/*footer*/
+.footer{
+	padding: 3em;
+}
+.footer img{
+	padding-bottom: 2em;
+	padding-right: 1.5em;
+}
+.footer p{
+	font-size: 0.7em;
+	font-weight: bold;
+}
+/*end footer*/
