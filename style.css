@@ -2,7 +2,7 @@
 
 .top .container-fluid{ 
 	margin-top:1em;
-	height: 90px;
+	height: 70px;
 	background-image: url('assets/backgrounds/h_img.jpg');
     background-size: cover;
     -webkit-background-size: cover;
@@ -12,6 +12,7 @@
     padding-top: 10em;
     padding-bottom: 54em;
     color: #ffffff;
+
 }
 
 .top h2{
@@ -117,6 +118,36 @@
   margin-right: auto;
 
 }
+
+.column {
+  float: left;
+  width: 24.6%;
+  padding-bottom: 2.4em;
+  padding-right: 1.4em;
+  
+}
+.portfolio{
+	background-color: #EFF0E0;
+}
+.portfolio h2{
+	padding-top: 2em;
+	color: #3C3C3C;
+}
+.portfolio .row{
+padding-top: 3em;
+  padding-right: 9em;
+  padding-left: 13em;
+  padding-bottom: 5em;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
 /*end activities*/
 /*contact*/
 .contact .container-fluid{
@@ -131,6 +162,11 @@
     color: #ffffff;
 
 }
+
+.contact h2{
+	padding-bottom: 1em;
+}
+
 input{
 	background-color: transparent;
 	outline:none;
